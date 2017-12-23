@@ -51,8 +51,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :splurty, Splurty.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
-  database: "splurty_dev",
+  username: "justus",
+  password: "yungmulla01",
+  database: "splurty_development",
   hostname: "localhost",
   pool_size: 10
