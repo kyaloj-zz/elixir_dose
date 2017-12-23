@@ -18,6 +18,7 @@ defmodule SplurtyWeb.Router do
 
     get "/", PageController, :index
     get "/hello", HelloController, :index
+    get "/hello/:source", HelloController, :show
   end
 
   # Other scopes may use custom stacks.
